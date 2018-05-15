@@ -1,6 +1,6 @@
 # FFDExtension
 * UserDefaults+FFExtension的使用
-首先 定义俩个要存储的值 不需要社设置key 可以设置默认值
+首先 定义俩个要存储的值 不需要设置key 可以设置默认值
 ```
  var string1: String? {
         get { return FFDUserDefaults.ffd_stringForKey() }
@@ -13,7 +13,7 @@
     }
 ```
 
-调用 当值为nil或移除该key
+调用 当值为nil移除该key
 ```
 /// 设置并存储string1, string2的值
     FFDUserDefaults.string1 = "string1"
