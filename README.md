@@ -1,5 +1,6 @@
 # FFDExtension
 * UserDefaults+FFExtension的使用
+
 首先 定义俩个要存储的值 不需要设置key 可以设置默认值
 ```
  var string1: String? {
